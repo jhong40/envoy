@@ -9,3 +9,8 @@ docker run -dit --env BG_COLOR="green" -p 5000:3000 gcr.io/tetratelabs/color-app
 curl -L https://func-e.io/install.sh | bash -s -- -b .
 func-e run -c config.yaml
 ```
+```
+curl localhost:10000/blue
+curl localhost:10000/green
+```   
+   
